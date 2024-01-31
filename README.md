@@ -40,7 +40,7 @@ Finally, add the swap file to your configuration and nixos-rebuild switch: <br>
 
 swapDevices = [ { device = "/swap/swapfile"; } ]; <br>
 
-For more idea on this, have a look at the <a href="https://github.com/christop23/nixconfig/blob/main/hardware-configuration.nix"> hardware-configuration.nix file </a>
+For more idea on this, have a look at the <a href="https://github.com/christop23/nixconfig/blob/main/hardware-configuration.nix">hardware-configuration.nix</a> file
 
 * nixos-install
 * reboot
