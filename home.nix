@@ -74,6 +74,7 @@
     pwvucontrol
     obs-studio
     libreoffice-fresh
+    telegram-desktop
   ];
 
 # XDG
