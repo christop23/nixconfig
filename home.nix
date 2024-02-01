@@ -68,6 +68,7 @@
     noto-fonts
     noto-fonts-color-emoji
     mpv
+    python3
     vscodium
     wl-clipboard
     keepassxc
