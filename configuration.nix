@@ -27,6 +27,9 @@
   # Polkit
   security.polkit.enable = true;
 
+  # Enable MTP
+  services.gvfs.enable = true;
+
   # Zsh
   environment.shells = with pkgs; [ zsh ];
   users.defaultUserShell = pkgs.zsh;
