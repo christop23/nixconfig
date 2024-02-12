@@ -47,15 +47,15 @@ For more idea on this, have a look at the <a href="https://github.com/christop23
 
 # POST INSTALLATION STEPS
 Login as root and do:
-* passwd `username`
+* passwd `username` (replace 'username' with your user name)
 * reboot
 
 Login as user and do:
 
-* mkdir ~/.dotfiles
 * nix-shell -p git
 * git clone https://github.com/christop23/nixconfig.git ~/.dotfiles
-* cd .dotfiles
+* cd ~/.dotfiles
+* rm hardware-configuration.nix (copy your new config from /etc/nixos/)
 * sudo nixos-rebuild switch --flake .#
 * reboot
 
