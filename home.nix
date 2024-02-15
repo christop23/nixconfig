@@ -76,6 +76,7 @@
     obs-studio
     libreoffice-fresh
     telegram-desktop
+    libsForQt5.kdenlive
   ];
 
 # XDG
