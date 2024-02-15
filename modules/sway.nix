@@ -44,6 +44,8 @@
           "${modifier}+Shift+q" = "kill";
           "${modifier}+d" = "exec ${menu}";
           "${modifier}+f" = "fullscreen"; 
+          "${modifier}+b" = "exec $BROWSER";
+          "${modifier}+c" = "exec codium";
 
          # Switch Workspace
           "${modifier}+1" = "workspace number 1";
