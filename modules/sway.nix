@@ -45,7 +45,7 @@
           "${modifier}+d" = "exec ${menu}";
           "${modifier}+f" = "fullscreen"; 
           "${modifier}+b" = "exec $BROWSER";
-          "${modifier}+c" = "exec codium";
+          "${modifier}+c" = "exec $EDITOR";
           "${modifier}+p" = "exec keepassxc";
 
 

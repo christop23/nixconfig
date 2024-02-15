@@ -24,7 +24,7 @@
 
   # Environment Variables
   home.sessionVariables = {
-    EDITOR = "nano";
+    EDITOR = "nvim";
     XDG_CURRENT_DESKTOP = "sway";
     GTK_USE_PORTAL = 0;
     TERMINAL = "foot";
@@ -69,7 +69,7 @@
     noto-fonts-color-emoji
     mpv
     python3
-    vscodium
+    neovim
     wl-clipboard
     keepassxc
     pwvucontrol
