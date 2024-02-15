@@ -77,6 +77,7 @@
     libreoffice-fresh
     telegram-desktop
     libsForQt5.kdenlive
+    glaxnimate
   ];
 
 # XDG
