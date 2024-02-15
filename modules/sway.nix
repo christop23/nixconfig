@@ -46,6 +46,8 @@
           "${modifier}+f" = "fullscreen"; 
           "${modifier}+b" = "exec $BROWSER";
           "${modifier}+c" = "exec codium";
+          "${modifier}+p" = "exec keepassxc";
+
 
          # Switch Workspace
           "${modifier}+1" = "workspace number 1";
