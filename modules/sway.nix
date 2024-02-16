@@ -48,6 +48,7 @@
           "${modifier}+c" = "exec $EDITOR";
           "${modifier}+p" = "exec keepassxc";
           "${modifier}+Shift+b" = "exec nautilus";
+          "${modifier}+s" = "exec systemctl poweroff";
 
 
          # Switch Workspace

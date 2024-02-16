@@ -6,6 +6,7 @@
     [ # import necessary nix files
       ./hardware-configuration.nix
       ./modules/stylix/stylix-main.nix
+      ./modules/cloudflared.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -92,6 +93,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     wget
+    cloudflared
   ];
 
   # Don't change this
