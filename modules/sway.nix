@@ -47,6 +47,7 @@
           "${modifier}+b" = "exec $BROWSER";
           "${modifier}+c" = "exec $EDITOR";
           "${modifier}+p" = "exec keepassxc";
+          "${modifier}+Shift+b" = "exec nautilus";
 
 
          # Switch Workspace
