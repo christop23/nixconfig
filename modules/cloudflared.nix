@@ -14,4 +14,5 @@
       ExecStart = "${pkgs.cloudflared}/bin/cloudflared proxy-dns";
     };
   };
+  networking.resolvconf.useLocalResolver = true;
 }
