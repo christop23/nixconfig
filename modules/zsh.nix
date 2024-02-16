@@ -19,7 +19,11 @@ let
     enable = true;
     enableAutosuggestions = true;
     enableCompletion = true;
-    initExtra = "ZSH_AUTOSUGGEST_STRATEGY=(history completion)";
+    initExtra = ''
+      ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+      eval "$(ssh-agent -s)" >/dev/null 2>&1
+      ssh-add ~/Repositories/id_ed25519 >/dev/null 2>&1
+      '';
     syntaxHighlighting.enable = true;
     shellAliases = myAliases;
 

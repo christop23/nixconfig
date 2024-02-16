@@ -15,16 +15,15 @@
               ./modules/zsh.nix
               ./modules/librewolf.nix
               ./modules/waybar.nix
-              # stylix is imported in nix config
               ./modules/mako.nix
               ./modules/mpd.nix
               ./modules/foot.nix
+              ./modules/vscode.nix
             ];
 
 
   # Environment Variables
   home.sessionVariables = {
-    EDITOR = "nvim";
     XDG_CURRENT_DESKTOP = "sway";
     GTK_USE_PORTAL = 0;
     TERMINAL = "foot";
@@ -69,7 +68,6 @@
     noto-fonts-color-emoji
     mpv
     python3
-    neovim
     wl-clipboard
     keepassxc
     pwvucontrol
