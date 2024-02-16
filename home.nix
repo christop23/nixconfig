@@ -19,11 +19,12 @@
               ./modules/mpd.nix
               ./modules/foot.nix
               ./modules/vscode.nix
+              ./modules/stylix/stylix-home.nix
             ];
-
 
   # Environment Variables
   home.sessionVariables = {
+    EDITOR = "code";
     XDG_CURRENT_DESKTOP = "sway";
     GTK_USE_PORTAL = 0;
     TERMINAL = "foot";

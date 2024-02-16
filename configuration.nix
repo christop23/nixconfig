@@ -5,7 +5,7 @@
   imports =
     [ # import necessary nix files
       ./hardware-configuration.nix
-      ./modules/stylix.nix
+      ./modules/stylix/stylix-main.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
