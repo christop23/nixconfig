@@ -20,6 +20,7 @@
               ./modules/foot.nix
               ./modules/vscode.nix
               ./modules/stylix/stylix-home.nix
+              ./modules/theme.nix
             ];
 
   # Environment Variables
