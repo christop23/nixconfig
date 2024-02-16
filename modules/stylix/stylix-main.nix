@@ -5,8 +5,8 @@
   stylix = {
     image = pkgs.fetchurl {
       name = "Wallpaper.jpg";
-      url = "https://w.wallhaven.cc/full/85/wallhaven-8586my.png";
-      sha256 = "sha256-dDYu/P82yhc5OISu2hf5EOG//YPaX5JvALOz6zAddKM=";
+      url = "https://w.wallhaven.cc/full/vq/wallhaven-vq5odm.jpg";
+      sha256 = "sha256-Fm800h7CbEHqcPDL7oKSBSIpGBhEWLFS6ioV5qM0SVw=";
     };
 
     polarity = "dark";
