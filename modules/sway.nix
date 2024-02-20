@@ -13,15 +13,10 @@
       modifier = "Mod4";
 
       # disable swaybar
-      bars = [];
+      bars = [{command = "${pkgs.waybar}/bin/waybar";}];
 
       # default terminal
       terminal = "foot"; 
-
-      startup = [
-        # Launch these on start
-        {command = "waybar";}
-      ];
 
       fonts = {
         names = [ "Fira Code Nerd Font" ];
