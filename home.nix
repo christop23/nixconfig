@@ -21,6 +21,7 @@
               ./modules/vscode.nix
               ./modules/stylix/stylix-home.nix
               ./modules/theme.nix
+              ./modules/java.nix
             ];
 
   # Environment Variables

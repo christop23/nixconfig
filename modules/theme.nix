@@ -4,11 +4,11 @@
 {
     gtk.theme = {
         name = "Qogir";
-        #package = pkgs.qogir-theme;
+        package = pkgs.qogir-theme;
     };
     gtk.iconTheme = {
         name = "Qogir";
-        package = pkgs.Qogir-icon-theme;
+        package = pkgs.qogir-icon-theme;
     };
     qt = {
         enable = true;
