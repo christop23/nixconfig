@@ -2,14 +2,20 @@
 { pkgs, ... }:
 
 {
-    gtk.theme = {
-        name = "Qogir";
-        package = pkgs.qogir-theme;
+    gtk = {
+        enable = true;
+
+        theme = {
+            name = "Qogir";
+            package = pkgs.qogir-theme;
+        };
+
+        iconTheme = {
+            name = "Qogir";
+            package = pkgs.qogir-icon-theme;
+        };
     };
-    gtk.iconTheme = {
-        name = "Qogir";
-        package = pkgs.qogir-icon-theme;
-    };
+
     qt = {
         enable = true;
         platformTheme = "gtk";
