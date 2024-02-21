@@ -6,7 +6,7 @@
         enable = true;
 
         theme = {
-            name = "Qogir";
+            name = "Qogir-Dark";
             package = pkgs.qogir-theme;
         };
 
