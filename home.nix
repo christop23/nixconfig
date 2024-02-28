@@ -21,12 +21,11 @@
               ./modules/vscode.nix
               ./modules/stylix/stylix-home.nix
               ./modules/theme.nix
-              ./modules/java.nix
             ];
 
   # Environment Variables
   home.sessionVariables = {
-    EDITOR = "code";
+    EDITOR = "nano";
     XDG_CURRENT_DESKTOP = "sway";
     GTK_USE_PORTAL = 0;
     TERMINAL = "foot";
