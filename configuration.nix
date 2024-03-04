@@ -94,6 +94,7 @@
   environment.systemPackages = with pkgs; [
     wget
     cloudflared
+    android-tools
   ];
 
   # Don't change this

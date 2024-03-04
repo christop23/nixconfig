@@ -79,7 +79,6 @@
     libsForQt5.kdenlive
     glaxnimate
     imv
-    android-tools
   ];
 
 # XDG
