@@ -79,6 +79,8 @@
     libsForQt5.kdenlive
     glaxnimate
     imv
+    qbittorrent
+    zathura
   ];
 
 # XDG
