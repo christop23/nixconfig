@@ -64,23 +64,16 @@
   home.packages = with pkgs; [
     neofetch
     (nerdfonts.override { fonts = [ "FiraCode" "Mononoki" ]; })
-    gnome.nautilus
-    font-awesome
     noto-fonts
     noto-fonts-color-emoji
     mpv
     python3
-    wl-clipboard
     keepassxc
-    pwvucontrol
     obs-studio
     libreoffice-fresh
     telegram-desktop
     libsForQt5.kdenlive
-    glaxnimate
-    imv
     qbittorrent
-    zathura
   ];
 
 # XDG

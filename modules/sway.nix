@@ -76,6 +76,12 @@
   home.packages = with pkgs; [
     swaybg
     bemenu
+    pwvucontrol
+    imv
+    zathura
+    gnome.nautilus
+    font-awesome
+    wl-clipboard
   ];
 
 }
