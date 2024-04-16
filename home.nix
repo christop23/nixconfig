@@ -68,7 +68,6 @@
     noto-fonts-color-emoji
     mpv
     python3
-    keepassxc
     obs-studio
     libreoffice-fresh
     telegram-desktop

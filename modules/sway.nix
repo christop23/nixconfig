@@ -41,7 +41,6 @@
           "${modifier}+f" = "fullscreen"; 
           "${modifier}+b" = "exec $BROWSER";
           "${modifier}+c" = "exec code";
-          "${modifier}+p" = "exec keepassxc";
           "${modifier}+Shift+b" = "exec nautilus";
           "${modifier}+s" = "exec systemctl poweroff";
 
